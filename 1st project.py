@@ -8,6 +8,8 @@ def md5_hashing(string):
 #input the string value
 string = input()
 encoded_string=md5_hashing(string)
+print("The binary equivalent of md5 is:")
+print(encoded_string.digest())
 print("The Hexadecimal equivalent of md5 is:")
 print(encoded_string.hexdigest())
 
